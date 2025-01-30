@@ -1,5 +1,5 @@
 C# JSON to Excel Converter
-This is a C# console application that reads a JSON file, deserializes its data into a model class, stores the values in a DataTable, and exports the DataTable to an Excel file (.xlsx) using the EPPlus library
+C# console application that reads a JSON file, deserializes its data into a model class, stores the values in a DataTable, and exports the DataTable to an Excel file (.xlsx) using the OpenXML library
 
 Overview
 This application performs the following tasks:
