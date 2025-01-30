@@ -12,8 +12,8 @@ namespace JsonToExcelConverter
     {
         static void Main(string[] args)
         {
-            string jsonFilePath = "D:\\JsonToExcelConverter\\JsonFile\\SBOM.json";
-            string excelFilePath = "D:\\JsonToExcelConverter\\ExcelFile\\ConvertedFile.xlsx";
+            string jsonFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "JsonFile", "SBOM.json");
+            string excelFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "ExcelFile", "ConvertedFile.xlsx");
             ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
             
             string jsonContent = File.ReadAllText(jsonFilePath);

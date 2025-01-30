@@ -7,6 +7,12 @@ obj/
 *.exe 
 *.cache 
 *.pdb 
+*.xlsx
+*.json
 .DS_Store 
 ExcelFile/
 JsonFile/
+
+# Ignore specific Excel and JSON files
+D:\JsonToExcelConverter\ExcelFile\ConvertedFile.xlsx
+D:\JsonToExcelConverter\JsonFile\SBOM.json
