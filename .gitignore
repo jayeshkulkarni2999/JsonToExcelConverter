@@ -1,0 +1,12 @@
+bin/ 
+obj/ 
+.vs/ 
+*.user 
+*.suo 
+*.dll 
+*.exe 
+*.cache 
+*.pdb 
+.DS_Store 
+ExcelFile/
+JsonFile/
